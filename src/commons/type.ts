@@ -1,0 +1,1 @@
+export type IMG_URL = {DESKTOP: string, MOBILE: string};
