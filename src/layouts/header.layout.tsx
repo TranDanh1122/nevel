@@ -1,10 +1,10 @@
 import React from "react";
 import DesktopNav from "@components/navbar/desktop.nav";
 import ButtonComponent from "@components/button.component";
-import { ResponsiveContext } from "@contexts/responsive.context";
+import { ResponsiveContext } from "@/contexts/responsive.context";
 import MobileNav from "@/components/navbar/mobile.nav";
 import X from "lucide-react/dist/esm/icons/x";
-import debounce from "lodash/debounce";
+import debounce from "just-debounce-it";
 
 const Header: React.FC = (): React.JSX.Element => {
   const { isMobile } = React.useContext(ResponsiveContext);

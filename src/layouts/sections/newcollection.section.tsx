@@ -1,5 +1,5 @@
 import { NEW_NFT } from "@/commons/content"
-import { ResponsiveContext } from "@contexts/responsive.context";
+import { ResponsiveContext } from "@/contexts/responsive.context";
 import React from "react"
 const Slider = React.lazy(() => import("@components/slider"));
 

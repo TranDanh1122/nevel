@@ -1,7 +1,7 @@
 import Footer from "@layouts/footer.layout"
 import Header from "@layouts/header.layout"
 import HomePage from "./pages/home.page";
-import ResponsiveProvider from "./contexts/responsive.context";
+import ResponsiveProvider from "./contexts/responsive.provider";
 
 
 function App() {

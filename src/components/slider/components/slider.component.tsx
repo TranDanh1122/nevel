@@ -2,7 +2,7 @@ import React from "react";
 import Image from "@components/image.component";
 import { ImageType } from "../ult/type";
 import clsx from "clsx/lite";
-import debounce from "lodash/debounce";
+import debounce from "just-debounce-it";
 
 interface SliderComponentProps {
     batchSize: number,
