@@ -1,69 +1,41 @@
-# React + TypeScript + Vite
+# 🖼️ Nevel Testing Input
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Test đầu vào FE Nevel
+Thời gian: 6/8 - 8/8 (3 ngày)
 
-Currently, two official plugins are available:
+## ⚙️ Công nghệ sử dụng
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
 
-## Expanding the ESLint configuration
+## ✅ Tính năng đã hoàn thành
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ✅ Giao diện giống thiết kế (có chỉnh sửa cho phù hợp hơn với mobile)
+- ✅ Tự viết **virtual rendering** cho slider (lấy ý tưởng từ react-window), hiện tại (như đang demo) xử lý tầm ngàn ảnh mỗi slide mà không gây lag/chậm
+- ✅ Thiết kế **responsive**
+- ✅ Performace, bundle size
+- ✅ Skeleton UI
+- ✅ Optimize ảnh cho các màn hình khác nhau
+- ✅ Lighthouse điểm số **>95** (cả desktop và mobile) cho cả 4 tiêu chí (Performance, Accessibility, Best Practices, SEO), trong đó Performance, Best Practices, SEO đạt 100 điểm
+  <img width="1262" height="601" alt="image" src="https://github.com/user-attachments/assets/07b05830-7c61-47e6-a7f3-4b3fc6127597" />
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚠️ Hạn chế hiện tại
+- ⚠️ Font Neue VN phải trả phí nên dùng tạm bản chưa việt hóa => menu nhìn không giống 55 roman của design
+- ⚠️ Virtual slider chưa tối ưu tốt cho responsive (các breakpoint khác nhau), và còn hạn chế phải fix cứng height
+- ⚠️ Với slide nhiều cột, scroll đến tầm ảnh vài trăm sẽ xuất hiện lỗi layout
+- ⚠️ Chưa xử lý animation
+- ⚠️ Chưa xử lý cho màn hình tablet và trường hợp người dùng co kéo cửa sổ
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🖼️ Demo Screenshot
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<img width="1920" height="1933" alt="image" src="https://github.com/user-attachments/assets/a1e72460-85ba-4dce-8c09-3237eaa23a4b" />
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+## 🖼️ Demo: 
+[Vecel Deploy](https://nevel-phi.vercel.app/)
+
+
