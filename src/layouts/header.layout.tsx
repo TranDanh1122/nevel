@@ -42,6 +42,7 @@ const Header: React.FC = (): React.JSX.Element => {
             src="./assets/images/burger.svg"
             onClick={() => setOpen((prev) => !prev)}
             className="mr-4 object-cover"
+            alt="Menu Toggle"
           />
         }
         {
