@@ -31,8 +31,10 @@ Thời gian: 6/8 - 8/8 (3 ngày)
 - ⚠️ Chưa xử lý cho màn hình tablet và trường hợp người dùng co kéo cửa sổ
 
 ## 🖼️ Demo Screenshot
+- [Mobile Demo Video](https://www.webmobilefirst.com/en/screencasts/qscbxk97y6q6-0)
+<img width="1920" height="1933" alt="image" src="https://github.com/user-attachments/assets/69f1c528-9bf2-45bd-b144-e8b4878a14d1" />
 
-<img width="1920" height="1933" alt="image" src="https://github.com/user-attachments/assets/a1e72460-85ba-4dce-8c09-3237eaa23a4b" />
+
 
 
 ## 🖼️ Demo: 
