@@ -18,8 +18,8 @@ const Footer: React.FC = (): React.JSX.Element => {
         });
     }, [])
     return (
-        <footer className="border-t border-t-secondary-800 text-secondary-400 px-8 py-12 mt-10">
-            <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+        <footer className="border-t border-t-secondary-800 text-secondary-400 mt-10">
+            <div className="container py-12 mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
                 {footer}
             </div>
         </footer>
