@@ -27,7 +27,7 @@ Thời gian: 6/8 - 8/8 (3 ngày)
 - ⚠️ Font Neue VN phải trả phí nên dùng tạm bản chưa việt hóa => menu nhìn không giống 55 roman của design
 - ⚠️ Virtual slider chưa tối ưu tốt cho responsive (các breakpoint khác nhau), và còn hạn chế phải fix cứng height
 - ⚠️ Với slide nhiều cột, scroll đến tầm ảnh vài trăm sẽ xuất hiện lỗi layout
-- ⚠️ Chưa xử lý animation do giới hạn thời gian (3 ngày và tăng ca khá nhiều)
+- ⚠️ Chưa xử lý animation
 - ⚠️ Chưa xử lý cho màn hình tablet và trường hợp người dùng co kéo cửa sổ
 
 ## 🖼️ Demo Screenshot
